@@ -62,36 +62,33 @@ h1{
   background-color: #FFFF00;
 }
 
-/* Desktop View Options */
-
-@media (min-width: 992px)
-{
-	  .col-lg-4 {
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
   	float: left;
     width: 33.33%;
   }
 }
-
-/* Tablet view options*/
-@media( min-width: 768px)and(max-width: 991px){
-	  .col-md-6,.col-md-12 {
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
     float: left;
   }
   .col-md-6 {
-  	float:left;
     width: 50%;
   }
   .col-md-12 {
     margin-left: -10px;
     width: 100%;
   }
-  
+  .name3{
+    margin-right: 65px;
+    width: 100px;
+  }
 }
 
-/*Smartphone view options*/
-@media(min-width:0px) and (max-width: 767px)
-{
-	 .col-sm-12 {
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
   	float: left;
     width: 100%;
   }
